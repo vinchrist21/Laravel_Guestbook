@@ -71,7 +71,7 @@ class EventController extends Controller
         $pages = 'event'; //too highlight navbar if its selected
 //        $users = User::pluck('id', 'name', 'email'); //pluck buat ambil bbrp row tabel, bukan semua
         $users = User::all();
-//        return view('addEvent', compact('pages', 'users'));
+//        return view('addEvent', compact('event', 'users'));
         return view('editEvent', compact('event'));
     }
 
