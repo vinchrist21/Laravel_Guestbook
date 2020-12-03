@@ -19,14 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1535bdbe-b5ba-4eb2-b8b8-f430669290dd" name="Default Changelist" comment="">
+    <list default="true" id="1535bdbe-b5ba-4eb2-b8b8-f430669290dd" name="Default Changelist" comment="tambahan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/Auth/LoginController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EventController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EventController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/addUser.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/editUser.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Event.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Event.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +172,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/guestbook" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Guest-add_ui_for_roles" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -238,8 +235,20 @@
       <workItem from="1606479311060" duration="4894000" />
       <workItem from="1606627370107" duration="4372000" />
       <workItem from="1606632209015" duration="614000" />
-      <workItem from="1606894763791" duration="512000" />
+      <workItem from="1606894763791" duration="630000" />
+      <workItem from="1606895432978" duration="1669000" />
+      <workItem from="1606925846006" duration="3607000" />
+      <workItem from="1606991307743" duration="927000" />
+      <workItem from="1607002090846" duration="8258000" />
     </task>
+    <task id="LOCAL-00001" summary="tambahan">
+      <created>1606895296457</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606895296457</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,15 +266,19 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tambahan" />
+    <option name="LAST_COMMIT_MESSAGE" value="tambahan" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="730" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602171005279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="730" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602171005279" />
-    <state x="552" y="228" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606481669860">
+    <state x="552" y="228" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606928876403">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="552" y="228" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.864@0.0.1536.864" timestamp="1606481669860" />
+    <state x="552" y="228" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.864@0.0.1536.864" timestamp="1606928876403" />
     <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602687437614" />
     <state x="933" y="361" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1606440719966">
       <screen x="0" y="0" width="1536" height="864" />
@@ -275,15 +288,15 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="547" y="344" width="442" height="265" key="ComposerInitDialogKey/0.0.1536.864@0.0.1536.864" timestamp="1606101295738" />
-    <state x="592" y="228" key="FileChooserDialogImpl" timestamp="1606485019703">
+    <state x="592" y="228" key="FileChooserDialogImpl" timestamp="1607008199829">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="592" y="228" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1606485019703" />
+    <state x="592" y="228" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1607008199829" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603635222747" />
-    <state x="646" y="330" key="Github.ShareDialog" timestamp="1606105622432">
+    <state x="646" y="330" key="Github.ShareDialog" timestamp="1606895273992">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="646" y="330" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1606105622432" />
+    <state x="646" y="330" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1606895273992" />
     <state x="522" y="137" key="Github.UntrackedFilesDialog" timestamp="1606105629545">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -292,6 +305,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602169726084" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606895307846">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1606895307846" />
     <state x="216" y="115" width="1046" height="850" key="dock-window-1" timestamp="1606024597363">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

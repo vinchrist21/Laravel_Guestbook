@@ -78,7 +78,7 @@ class LoginController extends Controller
             return redirect()->route('creator.event.index');
         } elseif (Auth::attempt($user)){
             $this->isLogin(Auth::id());
-            return redirect()->route('user.event.index');
+            return redirect()->route('user.events.index');
         }
 
         return redirect()->route('login');

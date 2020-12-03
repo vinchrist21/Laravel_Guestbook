@@ -56,6 +56,10 @@ class User extends Authenticatable
         return $this->belongsTo(Role::class);
     }
 
+    public function attends() {
+        return $this->belongsToMany(Event::class)->withPivot('is_approved')->withTimestamps();
+    }
+
     public function isAdmin(){
         if ($this->role->name == 'Admin' && $this->is_login == '1' && $this->is_active == '1' && $this->is_verified == '1'){
             return true;

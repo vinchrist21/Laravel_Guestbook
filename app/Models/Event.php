@@ -16,4 +16,8 @@ class Event extends Model
     public function creator(){
         return $this->belongsTo(User::class, 'created_by', 'id');
     }
+
+    public function guests(){
+        return $this->belongsToMany(User::class)->withPivot('is_approved')->withTimestamps();
+    }
 }
